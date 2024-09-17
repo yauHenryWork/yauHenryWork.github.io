@@ -474,12 +474,18 @@
                     HKeMobility
                   </h2>
                   <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/hkem_app_icon.png"
-                    style="max-height: 300px; width: auto"
-                    alt="HKeMobility App Icon"
-                  />
+                  <div class="row justify-content-center mb-5">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                      <div class="iphone-frame">
+                        <img class="img-fluid" src="assets/img/portfolio/hkem-IMG_5828.PNG" alt="HKeMobility App Screenshot 1">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="iphone-frame">
+                        <img class="img-fluid rounded" src="assets/img/portfolio/hkem-IMG_5829.PNG" alt="HKeMobility App Screenshot 2">
+                      </div>
+                    </div>
+                  </div>
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-4">
                     “HKeMobility” is an all-in-one mobile application with
@@ -667,12 +673,10 @@
               <div class="row justify-content-center">
                 <div class="col-lg-8">
                   <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                  >
+                  <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">
                     PIS APP
                   </h2>
-
+          
                   <div class="divider-custom my-4">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon">
@@ -680,14 +684,21 @@
                     </div>
                     <div class="divider-custom-line"></div>
                   </div>
-
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="assets/img/portfolio/vacancy.png"
-                    alt="PIS App Screenshot"
-                  />
-
+          
+                  <!-- Portfolio Modal - Images-->
+                  <div class="row justify-content-center mb-5">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                      <div class="iphone-frame">
+                        <img class="img-fluid" src="assets/img/portfolio/pisa-IMG_5822.PNG" alt="Plaw App Screenshot 1">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="iphone-frame">
+                        <img class="img-fluid rounded" src="assets/img/portfolio/pisa-IMG_5824.PNG" alt="Plaw App Screenshot 2">
+                      </div>
+                    </div>
+                  </div>
+          
                   <!-- Portfolio Modal - Text-->
                   <p class="mb-4">
                     The Parking Information System (PIS) is a multi-platform app
@@ -698,7 +709,7 @@
                     primary purpose is to streamline the process of managing
                     parking for carpark workers.
                   </p>
-
+          
                   <div class="divider-custom my-4">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon">
@@ -706,17 +717,17 @@
                     </div>
                     <div class="divider-custom-line"></div>
                   </div>
-
+          
                   <h3 class="text-center mb-4">My Role</h3>
-
+          
                   <ul class="list-group mb-5">
                     <li class="list-group-item">
                       <i class="fas fa-code text-primary me-2"></i>
-                      Created the prototype of the PIS app using .NET MAUI,ensuring seamless cross-platform functionality.
+                      Created the prototype of the PIS app using .NET MAUI, ensuring seamless cross-platform functionality.
                     </li>
                     <li class="list-group-item">
                       <i class="fas fa-server text-info me-2"></i>
-                      Integrated the app's back-end with the existing Linux  server to share data with the Parking Information System Website.
+                      Integrated the app's back-end with the existing Linux server to share data with the Parking Information System Website.
                     </li>
                     <li class="list-group-item">
                       <i class="fas fa-mobile-alt text-success me-2"></i>
@@ -731,12 +742,9 @@
                       Upgraded the Parking Information System Application from Xamarin to .NET MAUI, showcasing adaptability and a quick learning curve.
                     </li>
                   </ul>
-
+          
                   <div class="d-flex justify-content-center">
-                    <button
-                      class="btn btn-primary px-4 py-2"
-                      data-bs-dismiss="modal"
-                    >
+                    <button class="btn btn-primary px-4 py-2" data-bs-dismiss="modal">
                       <i class="fas fa-xmark fa-fw me-2"></i>
                       Close Window
                     </button>
@@ -971,12 +979,18 @@
                 </div>
   
                 <!-- Portfolio Modal - Image-->
-                <img
-                  class="img-fluid rounded mb-5"
-                  src="assets/img/portfolio/plaw.svg"
-                  alt="Plaw Project Logo"
-                  style="height: 200px; width: auto;" 
-                />
+                <div class="row justify-content-center mb-5">
+                  <div class="col-md-6 mb-3 mb-md-0">
+                    <div class="iphone-frame">
+                      <img class="img-fluid" src="assets/img/portfolio/plaw-Sign-In.png" alt="PIS App Screenshot 1">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="iphone-frame">
+                      <img class="img-fluid rounded" src="assets/img/portfolio/plaw-Sign-Up.png" alt="PIS App Screenshot 2">
+                    </div>
+                  </div>
+                </div>
   
                 <!-- Portfolio Modal - Text-->
                 <ul class="list-group mb-5">
@@ -1035,5 +1049,34 @@
       justify-content: center;
       align-items: center;
     }
+
+    .iphone-frame {
+    background: #ffffff;
+    border-radius: 2rem;
+    box-shadow: 0 0 0 4px #1f1f1f, 0 0 0 5px #191919;
+    overflow: hidden;
+    padding: 8px;
+    position: relative;
+    margin: 0 auto;
+    max-width: 280px;
+  }
+
+  .iphone-frame::before {
+    background: #1f1f1f;
+    border-radius: 1.5rem;
+    content: '';
+    height: 25px;
+    left: 50%;
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+    width: 120px;
+  }
+
+  .iphone-frame img {
+    border-radius: 1.5rem;
+    display: block;
+    width: 100%;
+  }
   </style>
 </html>
