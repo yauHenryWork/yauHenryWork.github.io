@@ -78,12 +78,13 @@
       <div class="container d-flex align-items-center flex-column">
         <!-- Masthead Avatar Image-->
         <img
-          class="masthead-avatar mb-5"
-          src="assets/img/avataaars.svg"
+          class="masthead-avatar circle mb-5"
+          src="assets/img/portfolio/avatar.PNG"
           alt="..."
         />
         <!-- Masthead Heading-->
-        <h1 class="masthead-heading mb-0">Henry Yau - Full Stack & iOS Developer</h1>
+        <h1 class="masthead-heading mb-0">  Full Stack Developer <br />
+          Web & Cross-Platform</h1>
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
           <div class="divider-custom-line"></div>
@@ -571,31 +572,31 @@
             <div class="container">
               <div class="row justify-content-center">
                 <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title p-4 text-secondary text-uppercase mb-0"
-                  >
+                  <!-- Portfolio Modal - Title -->
+                  <h2 class="portfolio-modal-title p-4 text-secondary text-uppercase mb-0">
                     PIS Website
                   </h2>
-                  <!-- Portfolio Modal - Image-->
+          
+                  <!-- Portfolio Modal - Image (First Image) -->
                   <img
-                    class="img-fluid rounded mb-5"
-                    style="max-height: 300px; width: auto"
-                    src="assets/img/portfolio/td_pis.png"
-                    alt="Hong Kong Transport Departmen Parking Infromation System Website"
+                    class="img-fluid outlined-image mb-3"
+                    src="assets/img/portfolio/td_pis_web1.png"
+                    alt="Hong Kong Transport Department Parking Information System Website Image 1"
                   />
-                  <!-- Portfolio Modal - Text-->
+          
+                  <!-- Portfolio Modal - Image (Second Image) -->
+                  <img
+                    class="img-fluid outlined-image mb-5"
+                    src="assets/img/portfolio/td_pis_web2.png"
+                    alt="Hong Kong Transport Department Parking Information System Website Image 2"
+                  />
+          
+                  <!-- Portfolio Modal - Text -->
                   <p class="mb-4">
-                    The Parking Information System (PIS) Website is a
-                    comprehensive web platform designed for both the Hong Kong
-                    Transportation Department and Carpark owners. It provides an
-                    intuitive and user-friendly graphical interface for
-                    seamlessly updating and monitoring carpark information in
-                    real time. With a range of powerful features, including
-                    vacancy alerts, file uploading, carpark mapping, and user
-                    management, the PIS website offers an efficient solution for
-                    streamlined carpark information management.
+                    The Parking Information System (PIS) Website is a comprehensive web platform designed for both the Hong Kong Transportation Department and carpark owners. It provides an intuitive and user-friendly graphical interface for seamlessly updating and monitoring carpark information in real time. With a range of powerful features, including vacancy alerts, file uploading, carpark mapping, and user management, the PIS website offers an efficient solution for streamlined carpark information management.
                   </p>
+          
+                  <!-- Divider -->
                   <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon">
@@ -603,11 +604,12 @@
                     </div>
                     <div class="divider-custom-line"></div>
                   </div>
-
+          
+                  <!-- Role Details -->
                   <ul class="list-group mb-4">
                     <li class="list-group-item">
                       <i class="fas fa-code text-primary me-2"></i>
-                      Led full stack development, implementing over 10 features including email,SMS notifications, auto data caching, and one-time password handling, enhancing user experience.
+                      Led full-stack development, implementing over 10 features including email, SMS notifications, auto data caching, and one-time password handling, enhancing user experience.
                     </li>
                     <li class="list-group-item">
                       <i class="fab fa-react text-info me-2"></i>
@@ -626,11 +628,12 @@
                       Designed efficient queries to extract data from large MySQL tables, improving data processing speed and reliability.
                     </li>
                     <li class="list-group-item">
-                      <i class="fas fa-server  text-danger me-2"></i>
+                      <i class="fas fa-server text-danger me-2"></i>
                       Using Nginx and Apache for professional web hosting, reverse proxying, and load balancing to ensure optimal performance and reliability.
                     </li>
                   </ul>
-
+          
+                  <!-- Buttons -->
                   <div class="d-flex justify-content-center">
                     <a
                       href="https://pis.hkemobility.gov.hk/"
@@ -1081,5 +1084,21 @@
     display: block;
     width: 100%;
   }
+
+
+.circle {
+  width: 100%;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+  
+  width: 100%;
+  top: 50%;
+  transform: translateX(0) translateY( 0%);
+  left: 0;
+  height: auto;
+}
+
   </style>
 </html>
